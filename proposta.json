@@ -1,0 +1,330 @@
+{
+  "slug": "espaco-021",
+  "negocio": {
+    "nome": "Espaço 021 · Estética e Saúde",
+    "logo": "brand/logo-escuro.png",
+    "whatsapp": "5521993479222",
+    "unidades": [
+      {
+        "bairro": "Copacabana · Shopping 680",
+        "endereco": "Av. Nossa Senhora de Copacabana, 680 · sobreloja 201 · Rio de Janeiro – RJ · 22050-001",
+        "telefone": "(21) 2137-7860",
+        "horario": "Segunda a sábado, das 9h às 18h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#1C1A1A",
+    "brand2": "#000000",
+    "ink": "#1C1A1A",
+    "bg": "#FBF7F5",
+    "pulse": "#E8A48F",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Jost",
+    "fontBody": "Open Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "A clínica",
+            "href": "#manifesto"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Copacabana · RJ",
+        "h1": "Rosto, sorriso e corpo",
+        "lead": "Harmonização facial, odontologia e estética no mesmo endereço: cinco consultórios no Shopping 680. A primeira avaliação é gratuita, presencial ou online.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Agende sua avaliação"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Preenchimento",
+          "Bioestimuladores de colágeno",
+          "Fios de PDO",
+          "Lipo de papada",
+          "Bichectomia",
+          "Lentes de contato dental",
+          "Clareamento",
+          "Implantes",
+          "Ortodontia",
+          "Lipocavitação",
+          "Limpeza de pele"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O Espaço 021 em números",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "205",
+            "rotulo": "avaliações de pacientes",
+            "contar": 205
+          },
+          {
+            "valor": "5",
+            "rotulo": "consultórios no mesmo andar",
+            "contar": 5
+          },
+          {
+            "valor": "3",
+            "rotulo": "áreas: rosto, sorriso e corpo",
+            "contar": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "citacao": "Antes de pensar em preencher, é fundamental entender a anatomia.",
+        "autor": "Dra. Flávia Cabral, harmonização orofacial",
+        "texto": [
+          "Quem chega querendo mudar o rosto quase nunca chega com o nome do procedimento certo. Chega com um incômodo: o sulco que marcou, o lábio que afinou, o sorriso que não aparece nas fotos.",
+          "Por isso a consulta começa pela avaliação, não pela tabela. A equipe olha a estrutura do rosto, ouve o que incomoda e monta um plano que respeita os traços de cada pessoa. Rosto, dentes e pele são avaliados no mesmo lugar."
+        ],
+        "imagem": "fotos/corredor.jpg",
+        "imagemAlt": "Corredor dos consultórios do Espaço 021, com piso de madeira e parede verde ao fundo"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Do rosto ao sorriso e ao corpo. Qual faz sentido para você se decide na avaliação.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa e ao redor dos olhos, com dose planejada para o rosto continuar se mexendo.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento",
+            "descricao": "Ácido hialurônico para devolver volume e contorno, nas áreas que a avaliação apontar.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Bioestimuladores de colágeno",
+            "descricao": "Estimulam a pele a produzir colágeno novo. O resultado aparece aos poucos, ao longo dos meses.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Fios de PDO",
+            "descricao": "Fios absorvíveis que dão sustentação à região tratada e estimulam colágeno.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Lipo de papada e bichectomia",
+            "descricao": "Dois procedimentos de contorno: reduzem a gordura abaixo do queixo e afinam a bochecha.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Odontologia estética",
+            "descricao": "Clareamento caseiro e a laser, facetas de resina e lentes de contato dental.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Implantes, prótese e ortodontia",
+            "descricao": "Reabilitação do sorriso e aparelhos ortodônticos, com clínica geral para as consultas de rotina.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Estética corporal",
+            "descricao": "Gordura localizada, flacidez e estrias em abdome, flancos, culotes, braços e glúteos. Celulite com lipocavitação e drenagem.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Pele do rosto",
+            "descricao": "Limpeza de pele, tratamento de acne e de melasma.",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/o-021.html"
+    },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "Por dentro do Espaço 021",
+        "lead": "Recepção, sala de espera e consultórios na sobreloja do Shopping 680.",
+        "itens": [
+          {
+            "imagem": "fotos/espera.jpg",
+            "legenda": "Sala de espera"
+          },
+          {
+            "imagem": "fotos/consultorio.jpg",
+            "legenda": "Consultório de odontologia"
+          },
+          {
+            "imagem": "fotos/sala-procedimento.jpg",
+            "legenda": "Sala de procedimentos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "lead": "A avaliação vem antes de qualquer procedimento e não tem custo.",
+        "itens": [
+          {
+            "titulo": "Mensagem no WhatsApp",
+            "texto": "Conte o que te incomoda. Não precisa saber o nome do procedimento.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação, presencial ou online",
+            "texto": "Na clínica, em Copacabana, ou por vídeo, se for melhor para você.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Plano individual",
+            "texto": "O que fazer, em que ordem e o que esperar de cada etapa, explicado antes de começar.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Procedimento",
+            "texto": "Feito no consultório da área: facial, odontológico ou corporal.",
+            "icone": "seringa"
+          },
+          {
+            "titulo": "Retorno e manutenção",
+            "texto": "Revisão depois do procedimento e a próxima data combinada, para o resultado durar.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "destaque",
+      "data": {
+        "titulo": "Quem já passou por aqui",
+        "itens": [
+          {
+            "texto": "Fiquei muito feliz com o resultado e com o atendimento. O espaço é muito limpo, bonito e aconchegante.",
+            "autor": "Fernando Pontes",
+            "contexto": "paciente, no site da clínica"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "A avaliação é paga?",
+            "r": "Não. A primeira avaliação é gratuita, e é nela que se decide se o procedimento faz sentido para você."
+          },
+          {
+            "p": "Dá para fazer a avaliação sem ir até a clínica?",
+            "r": "Sim. Quando o caso permite, a avaliação pode ser online. A recepção indica o melhor formato pelo WhatsApp."
+          },
+          {
+            "p": "Harmonização deixa o rosto artificial?",
+            "r": "O planejamento parte das suas características e do que te incomoda. Preservar os traços é uma escolha possível, e é discutida na avaliação, dentro dos limites de segurança."
+          },
+          {
+            "p": "Quanto tempo dura o efeito da toxina botulínica?",
+            "r": "Costuma durar de quatro a seis meses, e varia de pessoa para pessoa. No retorno, a profissional indica quando faz sentido reaplicar."
+          },
+          {
+            "p": "Vocês atendem aos sábados?",
+            "r": "Sim. A clínica funciona de segunda a sábado, das 9h às 18h."
+          },
+          {
+            "p": "Onde fica a clínica?",
+            "r": "Na Av. Nossa Senhora de Copacabana, 680, sobreloja 201, no Shopping 680."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "fotos/recepcao.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp o que te incomoda no rosto, no sorriso ou no corpo. A recepção marca o horário, presencial ou online.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    }
+  ]
+}

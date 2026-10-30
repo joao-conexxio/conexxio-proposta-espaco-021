@@ -1,0 +1,40 @@
+<section class="blk-o021" id="o-021">
+  <div class="wrap blk-o021__in">
+    <div class="blk-o021__txt">
+      <p class="blk-o021__eyebrow" data-reveal>O nome</p>
+      <p class="blk-o021__num" aria-hidden="true" data-reveal>021</p>
+      <h2 class="blk-o021__titulo" data-reveal>O DDD do Rio, no meio de Copacabana</h2>
+      <p class="blk-o021__lead" data-acende>A clínica ocupa a sobreloja do Shopping 680, na Avenida Nossa Senhora de Copacabana. Harmonização facial, odontologia e estética dividem o mesmo andar e a mesma recepção: quem vem cuidar do rosto pode resolver o sorriso sem trocar de endereço.</p>
+      <ul class="blk-o021__lista">
+        <li data-reveal style="--d:0ms"><span class="blk-o021__ico"><!--icone:local--></span><div><strong>Shopping 680, sobreloja 201</strong><p>Av. Nossa Senhora de Copacabana, 680.</p></div></li>
+        <li data-reveal style="--d:80ms"><span class="blk-o021__ico"><!--icone:agenda--></span><div><strong>Segunda a sábado</strong><p>Das 9h às 18h, sábado incluído.</p></div></li>
+        <li data-reveal style="--d:160ms"><span class="blk-o021__ico"><!--icone:conversa--></span><div><strong>Avaliação presencial ou online</strong><p>Para quem quer conversar antes de vir.</p></div></li>
+      </ul>
+    </div>
+    <figure class="blk-o021__foto" data-reveal>
+      <!--foto:fotos/parede-logo.jpg|Parede da recepção do Espaço 021 com o logo em madeira e luz embutida-->
+      <figcaption>O logo na parede da recepção.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+.blk-o021{padding-block:var(--sp-section);background:var(--surface-dark);color:var(--on-dark)}
+.blk-o021__in{display:grid;gap:var(--sp-5)}
+.blk-o021__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-o021__num{margin:var(--sp-2) 0 0;font-family:var(--f-display);font-weight:500;font-size:clamp(6rem,26vw,13rem);line-height:.85;letter-spacing:-.02em;color:transparent;-webkit-text-stroke:2px var(--pulse)}
+.blk-o021__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--on-dark)}
+.blk-o021__lead{margin:var(--sp-3) 0 0;max-width:36rem;font-size:1.1rem;line-height:1.65;color:var(--on-dark)}
+.blk-o021__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-o021__lista li{display:grid;grid-template-columns:2.4rem 1fr;gap:var(--sp-3);align-items:start;padding-top:var(--sp-3);border-top:1px solid var(--on-dark-line)}
+.blk-o021__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--pulse)}
+.blk-o021__ico svg{width:100%;height:100%}
+.blk-o021__lista strong{display:block;font-family:var(--f-display);font-size:1.2rem;font-weight:500;color:var(--on-dark)}
+.blk-o021__lista p{margin:.25rem 0 0;line-height:1.5;color:var(--on-dark-soft)}
+.blk-o021__foto{margin:0}
+.blk-o021__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 45%;border-radius:var(--r-lg)}
+.blk-o021__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:var(--on-dark-dim)}
+@media (min-width:64rem){
+  .blk-o021__in{grid-template-columns:6fr 5fr;gap:6rem;align-items:center}
+}
+</style>
